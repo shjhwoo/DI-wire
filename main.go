@@ -40,3 +40,9 @@ func (e Event) Start() {
 
 //     event.Start()
 // }
+
+func main() {
+	e := InitializeEvent()
+
+	e.Start()
+}
